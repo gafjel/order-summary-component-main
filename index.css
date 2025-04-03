@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -14,12 +16,12 @@ body{
     width: 450px;
     background-color: hsl(225, 100%, 98%);
     margin: 20px auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .container img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
     box-sizing: border-box;
 }
 
@@ -33,9 +35,11 @@ h1{
 
 .summary p{
     text-align: center;
+    width: 69%;
     margin: 20px 70px;
     color: hsl(224, 23%, 55%);
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 1.1em;
 }
 
 .money{
@@ -65,7 +69,7 @@ h1{
     font-weight: 900;
 }
 
-.change{
+.change a{
     color: hsl(245, 75%, 52%);
     font-weight: 700;
 }
@@ -97,6 +101,7 @@ button{
     background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 94%);
     font-weight: 700;
+    box-shadow: 2px 15px 5px hsl(245, 75%, 52%, 0.1);
 }
 
 .button2{
@@ -112,12 +117,12 @@ button{
 
 .button1:hover{
     cursor: pointer;
-    box-shadow: 2px 10px 5px hsl(223, 47%, 23%) ;
+    box-shadow: 2px 15px 5px hsl(223, 23%, 55%, 0.3);
 }
 
 .button2:hover{
     cursor: pointer;
-    color: hsl(245, 75%, 52%);
+    color: hsl(223, 47%, 23%);
 }
 
 @media screen and (max-width: 425px) {
