@@ -8,12 +8,12 @@
 }
 
 body{
-   background-color: #D6E1FF; 
+   background-color: #D6E1FF;
 }
 
 .container{
     box-sizing: border-box;
-    width: 450px;
+    width: 80%;
     background-color: hsl(225, 100%, 98%);
     margin: 20px auto;
     border-radius: 20px;
@@ -35,8 +35,8 @@ h1{
 
 .summary p{
     text-align: center;
-    width: 69%;
-    margin: 20px 70px;
+    width: 80%;
+    margin: 20px 50px;
     color: hsl(224, 23%, 55%);
     font-weight: 700;
     font-size: 1.1em;
@@ -136,21 +136,24 @@ button{
         box-sizing: border-box;
         background-color: hsl(225, 100%, 98%);
         margin: 20px auto;
-        border-radius: 10px;
+        border-radius: 20px;
     }
 }
 
 @media screen and (min-width: 768px){
     body{
-        box-sizing: border-box;
         background-color: #D6E1FF;
+    }
+    .summary p{
+        width: 40%;
+        margin-left: 270px;
     }
     .container{
         box-sizing: border-box;
         width: 70%;
         background-color: hsl(225, 100%, 98%);
         margin: 20px auto;
-        border-radius: 10px;
+        border-radius: 20px;
     }
     
 }
